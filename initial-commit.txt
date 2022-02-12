@@ -13,4 +13,5 @@ git checklout "filename" == git restore "file name" (undouing changes to uncommi
 git clean -dn (show wich files will be deleted [uncommited ones])
 git clean -df (delete files will be deleted [uncommited ones])
 get restore --staged "file name" === git reset "file name" (undo staged changes)[requires checkout or clean after that]
+git reset --soft HEAD~1 (unstaging commited file [the number after ~ says how much staps back])
 
