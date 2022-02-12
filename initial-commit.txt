@@ -9,3 +9,6 @@ git config --global user.name "Alex Khesin"
 git commit -m " my first commit to learning project"
 git ls-files (list all files added to branch )
 git rm "file name" (removed file from branch [later commit required])
+
+
+text is no longer needed
