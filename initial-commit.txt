@@ -1,1 +1,9 @@
 1. our first commit
+
+git init
+git add
+git commit -m " my first commit to learning project"
+***error!!!
+git config --global user.email "alex.khesin75@gmail.com"
+git config --global user.name "Alex Khesin"
+git commit -m " my first commit to learning project"
