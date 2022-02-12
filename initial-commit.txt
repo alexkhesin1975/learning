@@ -15,3 +15,4 @@ git clean -df (delete files will be deleted [uncommited ones])
 get restore --staged "file name" === git reset "file name" (undo staged changes)[requires checkout or clean after that]
 git reset --soft HEAD~1 ( uncommiting file [the number after ~ says how much staps back])
 git reset HEAD~1 (unstaging and uncommiting file [the number after ~ says how much staps back])
+git reset --hard HEAD~1 (unstaging and uncommiting and deleting file [the number after ~ says how much staps back])
