@@ -11,4 +11,3 @@ git ls-files (list all files added to branch )
 git rm "file name" (removed file from branch [later commit required])
 
 
-text is no longer needed
