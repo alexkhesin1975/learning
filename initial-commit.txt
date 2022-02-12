@@ -12,4 +12,5 @@ git rm "file name" (removed file from branch [later commit required])
 git checklout "filename" == git restore "file name" (undouing changes to uncommited file )
 git clean -dn (show wich files will be deleted [uncommited ones])
 git clean -df (delete files will be deleted [uncommited ones])
+get restore --staged "file name" === git reset "file name" (undo staged changes)[requires checkout or clean after that]
 
