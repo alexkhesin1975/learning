@@ -1,1 +1,6 @@
 "now we know how branches works" 
+
+git checkout "name"  == git switch "name" (switches between branches or creates new one if such name not exists)
+git branch ( list branches)
+git checkout -b "name" == git switch -c "name" (create branches and swith in to it)
+git merge "name" ( merges the named branc in to currently located in)
