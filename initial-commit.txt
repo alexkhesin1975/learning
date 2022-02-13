@@ -18,3 +18,11 @@ git reset HEAD~1 (unstaging and uncommiting file [the number after ~ says how mu
 git reset --hard HEAD~1 (unstaging and uncommiting and deleting file [the number after ~ says how much staps back])
 git diff "file name"
 git tag "tag name " 
+
+git stash (taking last commit to offline as snapshot)
+git stash apply (moving to latest stash)
+git stash apply 1 (moving to stash number 1 )
+git stash pop 1 (pushing stash number 1 to repo)
+git stash push -m"some comment" (saving stash with comment)
+git stash drop 0 (deleting stash number 0)
+git stash clear (removing all stashes)
