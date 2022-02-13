@@ -26,3 +26,14 @@ git stash pop 1 (pushing stash number 1 to repo)
 git stash push -m"some comment" (saving stash with comment)
 git stash drop 0 (deleting stash number 0)
 git stash clear (removing all stashes)
+
+
+git reflog (shows all steps you didd with git)
+git reset --hard HEAD~1 (canceling last commit including all cnages[like removing file if was created])
+git reset --soft HEAD~1 (canseling last commit but not undouing changes)
+
+in case we delete branch
+git reflog
+copy hash
+git checkout "hash" (the previous to delete) {will take to memory branch status of that hash}
+git switch -c "branchname" (will create new branch from memory snapshot )
