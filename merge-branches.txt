@@ -1,0 +1,19 @@
+git merge "name" (merges naed branch in to current brunch)
+
+there is few types of merge
+
+fast-forward:
+in case in master branch was no change since second branch created
+
+master: m1,m2
+feature:f1,f2
+
+git merge feature
+
+master: m1,m2,f1,f2
+feature:f1,f2
+
+fast-forward:
+git merge --squash feature ( will take all commits from feature and add them to master as 1 commit[the git commit -m requred])
+
+in that case the HEAD will be same for both branches
