@@ -17,3 +17,4 @@ git reset --soft HEAD~1 ( uncommiting file [the number after ~ says how much sta
 git reset HEAD~1 (unstaging and uncommiting file [the number after ~ says how much staps back])
 git reset --hard HEAD~1 (unstaging and uncommiting and deleting file [the number after ~ says how much staps back])
 git diff "file name"
+git tag "tag name " 
