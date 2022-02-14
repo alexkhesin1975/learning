@@ -17,3 +17,10 @@ fast-forward:
 git merge --squash feature ( will take all commits from feature and add them to master as 1 commit[the git commit -m requred])
 
 in that case the HEAD will be same for both branches
+
+
+git merge --no-ff "branch name" (will merge branch name into carrent branch in not fast forward way)
+
+git merge --squash "branch name" (will merge named branch to current branch without commit. [commit required] {that option will squosh all steps from named feature in to 1 step that we must to commit after}
+
+git cherry-pick "hush number" ( will merge only commit [hash number ] to current branch and creates new hash {even if that commit is only a part of other branch})
